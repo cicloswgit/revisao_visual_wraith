@@ -24,14 +24,7 @@ domains:
 # (required) The paths to capture. This particular config is using casperjs, so we can take screenshots of selectors rather than the entire page.
 paths:
   colaborador_login:
-    path: /#/login
-    #selector: 'div.box-container' # (optional) selector to take a screenshot of
-    credentials:
-      username: input#cpf
-      password: input#password
-      username_field: 04924181528
-      password_field: Ride_145
-      login_button: submit  
+    path: /#/login   
 
 # (optional) JavaScript file to execute before taking screenshot of every path. Default: nil
 before_capture: 'javascript/wait--chrome.js'
